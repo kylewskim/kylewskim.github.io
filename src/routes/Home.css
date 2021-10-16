@@ -26,9 +26,13 @@
 }
 
 .nav-selection {
-    padding-top: 2em;
+
 }
 
 .nav_content {
     font-size : 15px;
+}
+
+.css-ahplu8-MuiGrid-root>.MuiGrid-item {
+    padding-top : 0px;
 }
