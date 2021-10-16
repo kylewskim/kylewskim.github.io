@@ -5,9 +5,13 @@
 
 @media only screen and (max-width: 600px) {
     .name-wooseongkim {
-        font-size : 20px;
+        font-size : 15px;
         line-height : 1.5em;
         padding-bottom : 50px;
+    }
+
+    .nav_bar {
+        padding-bottom : 32px;
     }
 }
 
@@ -33,7 +37,7 @@ html {
 }
 
 .name-wooseongkim {
-    font-size : 20px;
+    font-size : 21.5px;
     line-height : 1.5em;
 }
 
@@ -50,4 +54,21 @@ html {
 
 .master-image {
     width : 100%;
+}
+
+.text-project-name {
+    padding-top : 10px;
+    font-size : 18px;
+}
+
+.text-project-info {
+    font-size : 13.5px;
+}
+
+.css-1t3h25l-MuiGrid-root>.MuiGrid-item {
+    padding-top : 0px !important;
+}
+
+.css-1t3h25l-MuiGrid-root {
+    margin-top : 12px !important;
 }
