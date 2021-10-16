@@ -11,6 +11,10 @@
     }
 }
 
+html {
+    overflow-y: scroll;
+}
+
 .About {
     background-color: #FAFAFA;
 }
