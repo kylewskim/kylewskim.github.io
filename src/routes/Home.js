@@ -25,7 +25,7 @@ function Home() {
                     <Grid  item  xs={12} sm={6}>
                         <Link to='/bright' className='link-item'>
                         <div>
-                            <img className="master-image" src={process.env.PUBLIC_URL + '/assets/aline/aline-master.jpg'} alt="master of aline" style={{marginTop: 14}}/>
+                            <img className="master-image" src={process.env.PUBLIC_URL + '/'} alt="master of bright" style={{marginTop: 14}}/>
                             <p className='text-item-name'>BRIGHT</p>
                             <p className='text-item-name-sub'>2021, Financial Service</p>
                         </div>
