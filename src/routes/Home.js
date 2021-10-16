@@ -21,13 +21,31 @@ function Home() {
                 </Grid>   
             </Grid>
 
-            <Grid container className='grid-container'  spacing={4} rowSpacing={15} direction='row' justify='flex-start' alignItems='flex-start' style={{marginTop: 50, marginBottom: 180}}>
+            <Grid container className='grid-container'  spacing={4} rowSpacing={7.5} direction='row' justify='flex-start' alignItems='flex-start' style={{marginTop: 150, marginBottom: 180}}>
                     <Grid  item  xs={12} sm={6}>
-                        <Link to='/bright' className='link-item'>
+                        <Link to='/bright' className='link-item' style={{ textDecoration: 'none' , color: 'black' }}>
                         <div>
-                            <img className="master-image" src={process.env.PUBLIC_URL + '/'} alt="master of bright" style={{marginTop: 14}}/>
-                            <p className='text-item-name'>BRIGHT</p>
-                            <p className='text-item-name-sub'>2021, Financial Service</p>
+                            <img className="master-image" src={process.env.PUBLIC_URL + '/assets/Home/img1.png'} alt="master of bright" style={{marginTop: 10}}/>
+                            <p className='text-project-name'> BRIGHT </p>
+                            <p className='text-project-info'> 2021, Financial Service </p>
+                        </div>
+                        </Link>
+                    </Grid>
+                    <Grid  item  xs={12} sm={6}>
+                        <Link to='/bright' className='link-item' style={{ textDecoration: 'none' , color: 'black' }}>
+                        <div>
+                            <img className="master-image" src={process.env.PUBLIC_URL + '/assets/Home/img2.png'} alt="master of bright" style={{marginTop: 10}}/>
+                            <p className='text-project-name'> BRIGHT </p>
+                            <p className='text-project-info'> 2021, Financial Service </p>
+                        </div>
+                        </Link>
+                    </Grid>
+                    <Grid  item  xs={12} sm={6}>
+                        <Link to='/bright' className='link-item' style={{ textDecoration: 'none' , color: 'black' }}>
+                        <div>
+                            <img className="master-image" src={process.env.PUBLIC_URL + '/assets/Home/img1.png'} alt="master of bright" style={{marginTop: 10}}/>
+                            <p className='text-project-name'> BRIGHT </p>
+                            <p className='text-project-info'> 2021, Financial Service </p>
                         </div>
                         </Link>
                     </Grid>
