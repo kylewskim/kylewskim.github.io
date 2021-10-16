@@ -1,7 +1,20 @@
 @font-face {
     font-family: "Helvetica-Now";
     src: url("../font/HelveticaNowText-Light.otf") format('opentype');
-  }
+}
+
+@media only screen and (max-width: 600px) {
+    .name-wooseongkim {
+        font-size : 20px;
+        line-height : 1.5em;
+        padding-bottom : 50px;
+    }
+}
+
+.About {
+    background-color: #FAFAFA;
+}
+
 
 .grid-container {
     padding-left : 7.5%;
@@ -26,7 +39,6 @@
 }
 
 .nav-selection {
-
 }
 
 .nav_content {
