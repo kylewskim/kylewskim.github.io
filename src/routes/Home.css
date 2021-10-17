@@ -7,11 +7,11 @@
     .name-wooseongkim {
         font-size : 15px;
         line-height : 1.5em;
-        padding-bottom : 50px;
+        padding-bottom : 24px;
     }
 
     .nav_bar {
-        padding-bottom : 32px;
+        padding-bottom : 12px;
     }
 }
 
@@ -49,7 +49,7 @@ html {
 }
 
 .nav_content {
-    font-size : 20px;
+    font-size : 15px;
 }
 
 .master-image {
@@ -65,10 +65,10 @@ html {
     font-size : 13.5px;
 }
 
-.css-1t3h25l-MuiGrid-root>.MuiGrid-item {
+/* .css-1t3h25l-MuiGrid-root>.MuiGrid-item {
     padding-top : 0px !important;
 }
 
 .css-1t3h25l-MuiGrid-root {
     margin-top : 12px !important;
-}
+} */
