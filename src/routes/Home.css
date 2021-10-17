@@ -12,7 +12,7 @@
 
     .nav_bar {
         padding-bottom : 12px;
-        width : 50%;
+        width : 50% !important;
     }
 }
 
