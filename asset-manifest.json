@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.977b5a32.chunk.css",
+    "main.css": "/static/css/main.d7fdfd4e.chunk.css",
     "main.js": "/static/js/main.5e5ef436.chunk.js",
     "main.js.map": "/static/js/main.5e5ef436.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ff1a2815.js",
@@ -10,14 +10,14 @@
     "static/js/3.5c1c995a.chunk.js": "/static/js/3.5c1c995a.chunk.js",
     "static/js/3.5c1c995a.chunk.js.map": "/static/js/3.5c1c995a.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.977b5a32.chunk.css.map": "/static/css/main.977b5a32.chunk.css.map",
+    "static/css/main.d7fdfd4e.chunk.css.map": "/static/css/main.d7fdfd4e.chunk.css.map",
     "static/js/2.bfa46269.chunk.js.LICENSE.txt": "/static/js/2.bfa46269.chunk.js.LICENSE.txt",
     "static/media/About.css": "/static/media/HelveticaNowText-Light.db99f6b8.otf"
   },
   "entrypoints": [
     "static/js/runtime-main.ff1a2815.js",
     "static/js/2.bfa46269.chunk.js",
-    "static/css/main.977b5a32.chunk.css",
+    "static/css/main.d7fdfd4e.chunk.css",
     "static/js/main.5e5ef436.chunk.js"
   ]
 }
