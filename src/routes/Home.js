@@ -14,14 +14,14 @@ function Home() {
                     <text className='text-name-wooseongkim'> Wooseong Kim </text> <br /> <text className='ux-designer'> UX Designer </text>
                 </Grid>
                 <Grid item xs={12} sm={6}>
-                    <Grid container className='nav-selection' spacing={1} direction='row' justify='flex-start' alignItems='flex-start'>
+                    <Grid container className='nav-selection' id='nav-selection' spacing={1} direction='row' justify='flex-start' alignItems='flex-start'>
                         <Grid className='nav_content' item xs={6}> <Link to='/' style={{ textDecoration: 'line-through' , color: 'black' }}> Project </Link> </Grid> 
                         <Grid className='nav_content' item xs={6}> <Link to='/About' style={{ textDecoration: 'none' , color: 'black' }}> About / CV </Link> </Grid> 
                     </Grid>
                 </Grid>   
             </Grid>
 
-            <Grid container className='grid-container'  spacing={6} rowSpacing={7.5} direction='row' justify='flex-start' alignItems='flex-start' style={{marginTop: 100, marginBottom: 100}}>
+            <Grid container className='grid-container' spacing={6} rowSpacing={7.5} direction='row' justify='flex-start' alignItems='flex-start' style={{marginTop: 100, marginBottom: 100}}>
                     <Grid  item  xs={12} sm={6}>
                         <Link to='/bright' className='link-item' style={{ textDecoration: 'none' , color: 'black' }}>
                         <div>

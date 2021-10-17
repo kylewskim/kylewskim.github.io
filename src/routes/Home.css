@@ -7,7 +7,7 @@
     .name-wooseongkim {
         font-size : 15px;
         line-height : 1.5em;
-        padding-bottom : 24px;
+        padding-bottom : 100px !important;
     }
 
     .nav_bar {
@@ -27,7 +27,7 @@ html {
 .grid-container {
     padding-left : 7.5%;
     padding-right : 7.5%;
-    padding-top : 3.5em;
+    padding-top : 6.5em !important;
 
     font-family: Helvetica-Now;
 }
@@ -64,4 +64,8 @@ html {
 
 .text-project-info {
     font-size : 13.5px;
+}
+
+.MuiGrid-item {
+    padding-top : 0px !important;
 }
