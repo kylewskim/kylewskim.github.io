@@ -22,7 +22,7 @@ function Home() {
             </Grid>
 
             <Grid container className='grid-container' spacing={6} rowSpacing={7.5} direction='row' justify='flex-start' alignItems='flex-start' style={{marginTop: 100, marginBottom: 100}}>
-                    <Grid  item  xs={12} sm={6}>
+                    <Grid  item className='frame-item' xs={12} sm={6}>
                         <Link to='/bright' className='link-item' style={{ textDecoration: 'none' , color: 'black' }}>
                         <div>
                             <img className="master-image" src={process.env.PUBLIC_URL + '/assets/Home/img1.png'} alt="master of bright" style={{marginTop: 10}}/>
@@ -31,7 +31,7 @@ function Home() {
                         </div>
                         </Link>
                     </Grid>
-                    <Grid  item  xs={12} sm={6}>
+                    <Grid  item className='frame-item' xs={12} sm={6}>
                         <Link to='/bright' className='link-item' style={{ textDecoration: 'none' , color: 'black' }}>
                         <div>
                             <img className="master-image" src={process.env.PUBLIC_URL + '/assets/Home/img2.png'} alt="master of bright" style={{marginTop: 10}}/>
@@ -40,7 +40,7 @@ function Home() {
                         </div>
                         </Link>
                     </Grid>
-                    <Grid  item  xs={12} sm={6}>
+                    <Grid  item className='frame-item' xs={12} sm={6}>
                         <Link to='/bright' className='link-item' style={{ textDecoration: 'none' , color: 'black' }}>
                         <div>
                             <img className="master-image" src={process.env.PUBLIC_URL + '/assets/Home/img1.png'} alt="master of bright" style={{marginTop: 10}}/>

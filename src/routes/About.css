@@ -1,13 +1,13 @@
-@font-face {
+/* @font-face {
     font-family: "Helvetica-Now";
     src: url("../font/HelveticaNowText-Light.otf") format('opentype');
 }
 
 @media only screen and (max-width: 600px) {
     .name-wooseongkim {
-        font-size : 20px;
+        font-size : 15px;
         line-height : 1.5em;
-        padding-bottom : 25px;
+        padding-bottom : 100px !important;
     }
 
     .nav_bar {
@@ -20,15 +20,14 @@ html {
     overflow-y: scroll;
     background-color: #FAFAFA;
 }
-
-.About {
+ 
+.Home{
 }
-
 
 .grid-container {
     padding-left : 7.5%;
     padding-right : 7.5%;
-    padding-top : 3.5em;
+    padding-top : 6.5em !important;
 
     font-family: Helvetica-Now;
 }
@@ -39,7 +38,7 @@ html {
 }
 
 .name-wooseongkim {
-    font-size : 20px;
+    font-size : 21.5px;
     line-height : 1.5em;
 }
 
@@ -54,10 +53,19 @@ html {
     font-size : 15px;
 }
 
-/* .css-1t3h25l-MuiGrid-root>.MuiGrid-item {
-    padding-top : 0px !important;
+.master-image {
+    width : 100%;
+} */
+
+/* .text-project-name {
+    padding-top : 10px;
+    font-size : 18px;
+} */
+
+/* .text-project-info {
+    font-size : 13.5px;
 }
 
-.css-1t3h25l-MuiGrid-root {
-    margin-top : 12px !important;
+.MuiGrid-item {
+    padding-top : 0px !important;
 } */
