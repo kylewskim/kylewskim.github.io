@@ -39,6 +39,11 @@
     .nav_content {
         font-size : 15px;
     }
+
+    .text-copyright-wooseongkim {
+        font-size : 10px;
+        color : #5e5e5e;
+    }
 }
 
 @media only screen and (min-width: 600px) {
@@ -62,6 +67,11 @@
 
     .nav_content {
         font-size : 17px;
+    }
+
+    .text-copyright-wooseongkim {
+        font-size : 12.5px;
+        color : #5e5e5e;
     }
 }
 
@@ -89,6 +99,13 @@ html {
 }
 
 .info-grid-container {
+    padding-left : 6%;
+    padding-right : 6%;
+
+    font-family: Helvetica-Now;
+}
+
+.footer-grid-container {
     padding-left : 6%;
     padding-right : 6%;
 

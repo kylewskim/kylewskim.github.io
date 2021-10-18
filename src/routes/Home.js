@@ -59,6 +59,15 @@ function Home() {
                 </Grid>
             </Grid>
 
+            <Grid container className='footer-grid-container' spacing={8} direction='row' justify='flex-start' alignItems='flex-start' style={{marginTop: 100, marginBottom: 50}}>
+                <Grid item className='copyright-wooseongkim' xs={12} sm={6}>
+                    <p className='text-copyright-wooseongkim'>
+                    © 2021 WOOSEONG KIM ALL RIGHTS RESERVED
+                    </p>
+                </Grid>
+            </Grid>
+
+
         </div>
     )
 }
