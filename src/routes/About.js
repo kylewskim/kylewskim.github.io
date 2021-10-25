@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function About() {
     return (
         <div className='About'>
-            <Grid container className='nav-grid-container' spacing={8} direction='row' justify='flex-end' alignItems='flex-end'>
+            <Grid container className='nav-grid-container' spacing={6} direction='row' justify='flex-end' alignItems='flex-end'>
                 <Grid className='name-wooseongkim'item xs={12} sm={6}>
                     <text className='text-name-wooseongkim'> Wooseong Kim </text> <br /> <text className='ux-designer'> UX Designer </text>
                 </Grid>

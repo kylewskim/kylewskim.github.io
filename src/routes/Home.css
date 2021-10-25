@@ -87,7 +87,6 @@ html {
 .nav-grid-container {
     padding-left : 6%;
     padding-right : 6%;
-    /* padding-top : 6.5em !important; */
 
     font-family: Helvetica-Now;
 }
@@ -100,6 +99,13 @@ html {
 }
 
 .info-grid-container {
+    padding-left : 6%;
+    padding-right : 6%;
+
+    font-family: Helvetica-Now;
+}
+
+.link-grid-container {
     padding-left : 6%;
     padding-right : 6%;
 
