@@ -48,16 +48,17 @@
 
 @media only screen and (min-width: 600px) {
     .name-wooseongkim {
-        font-size : 25px;
+        font-size : 20px;
         line-height : 1.5em;
     }
     
     .nav-grid-container {
-        padding-top : 8em !important;
+        padding-top : 2em !important;
+        position : fixed;
     }
 
     .item-grid-container {
-        padding-top : 12.5em !important;
+        padding-top : 20em;
     }
 
     .text-info-wooseongkim {
@@ -66,7 +67,7 @@
     }
 
     .nav_content {
-        font-size : 17px;
+        font-size : 16px;
     }
 
     .text-copyright-wooseongkim {
