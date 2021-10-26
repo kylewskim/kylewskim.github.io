@@ -44,6 +44,11 @@
         font-size : 11px;
         color : #5e5e5e;
     }
+    
+    .link-wooseongkim {
+        font-size : 11px;
+        color : #5e5e5e;
+    }
 }
 
 @media only screen and (min-width: 600px) {
@@ -152,3 +157,7 @@ html {
     padding-bottom : 50px;
 }
 
+a:link    {color:#000;}  /* unvisited link  */
+a:visited {color:#000;}  /* visited link    */
+a:hover   {color:#000;}  /* mouse over link */
+a:active  {color:#000;}  /* selected link   */ 

@@ -48,13 +48,14 @@ function Home() {
                     </Grid>
             </Grid>
 
-            <Grid container className='info-grid-container' spacing={6} direction='row' justify='flex-start' alignItems='flex-start' style={{marginTop: 350, marginBottom: 250}}>
+            <Grid container className='info-grid-container' spacing={6} direction='row' justify='flex-start' alignItems='flex-start' style={{marginTop: 200, marginBottom: 250}}>
                 <Grid item className='info-wooseongkim' xs={9} sm={5}>
                     <p className='text-info-wooseongkim'>
                     Wooseong Kim is UX Designer based in South Korea. He is a senior Industrial Design student with computer science and entrepreneurs minor from UNIST, South Korea. 
                     </p>
                     <p className='text-info-wooseongkim'>
                     Wooseong Kim sincerely enjoys going through design process to solve the problem, especially helping people in needs with disorder or social structure by technical implementation. &nbsp;
+                    <br></br>
                     <Link to='/bright' className='text-info-wooseongkim' style={{ textDecoration: 'underline' , color: 'black' }}>
                         To know more &#x2192;
                     </Link>
@@ -63,9 +64,9 @@ function Home() {
             </Grid>
 
             <Grid container className='link-grid-container' spacing={1} direction='row' justify='flex-start' alignItems='flex-start' style={{marginTop: 100, marginBottom: 15}}>
-                <Grid item className='link-wooseongkim' xs={3} sm={1}>Linkedin</Grid>
-                <Grid item className='link-wooseongkim' xs={3} sm={1}>Medium</Grid>
-                <Grid item className='link-wooseongkim' xs={3} sm={1}>Email</Grid>
+                <Grid item className='link-wooseongkim' xs={3} sm={1} style={{ textDecoration: 'underline' , color: 'black'}}> <a href="https://www.linkedin.com/in/wooseong-kim-53aa23191/"> Linkedin </a> </Grid>
+                <Grid item className='link-wooseongkim' xs={3} sm={1} style={{ textDecoration: 'underline' , color: 'black'}}> <a href="https://medium.com/@kylewskim"> Medium </a> </Grid>
+                <Grid item className='link-wooseongkim' xs={3} sm={1} style={{ textDecoration: 'underline' , color: 'black'}}> <a href="mailto:kylewskim@gmail.com"> Email </a> </Grid>
             </Grid>
 
             <Grid container className='footer-grid-container' spacing={6} direction='row' justify='flex-start' alignItems='flex-start' style={{marginTop: 15, marginBottom: 50}}> 

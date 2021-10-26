@@ -145,6 +145,15 @@ html {
         font-size : 11px;
         color : #5e5e5e;
     }
+
+    .text-about {
+        margin-top : 10em !important;
+        margin-bottom : 10em !important;
+    }
+
+    .text-about-link {
+        font-size : 15px;
+    }
 }
 
 @media only screen and (min-width: 600px) {
@@ -160,6 +169,11 @@ html {
 
     .item-grid-container {
         padding-top : 20em;
+    }
+
+    .about-grid-container {
+        padding-top : 20em;
+        padding-bottom : 10em;
     }
 
     .text-info-wooseongkim {
@@ -214,6 +228,13 @@ html {
     font-family: Helvetica-Now;
 }
 
+.about-grid-container {
+    padding-left : 6%;
+    padding-right : 6%;
+
+    font-family: Helvetica-Now;
+}
+
 .nav_bar {
     width : 100%;
     height : 0.4em;
@@ -253,7 +274,11 @@ html {
 
 
 
-
 .text-about-title {
-    font-size : 18px;
+    font-size : 20px;
+}
+
+.text-about {
+    font-size : 15px;
+    line-height : 1.75em;
 }
