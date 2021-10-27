@@ -21,7 +21,7 @@ function Home() {
             <Grid container className='item-grid-container' spacing={6} rowSpacing={7.5} direction='row' justify='flex-start' alignItems='flex-start' style={{marginTop: 100, marginBottom: 100}}>
                     <Grid  item className='frame-item' xs={12} sm={6}>
                         <Link to='/bright' className='link-item' style={{ textDecoration: 'none' , color: 'black' }}>
-                        <div>
+                        <div className='hover-area'>
                             <img className="master-image" src={process.env.PUBLIC_URL + '/assets/Home/img1.png'} alt="master of bright" style={{marginTop: 10}}/>
                             <p className='text-project-name'> BRIGHT </p>
                             <p className='text-project-info'> 2021, Financial Service </p>
@@ -30,19 +30,28 @@ function Home() {
                     </Grid>
                     <Grid  item className='frame-item' xs={12} sm={6}>
                         <Link to='/bright' className='link-item' style={{ textDecoration: 'none' , color: 'black' }}>
-                        <div>
+                        <div className='hover-area'>
                             <img className="master-image" src={process.env.PUBLIC_URL + '/assets/Home/img2.png'} alt="master of bright" style={{marginTop: 10}}/>
-                            <p className='text-project-name'> BRIGHT </p>
-                            <p className='text-project-info'> 2021, Financial Service </p>
+                            <p className='text-project-name'> Lyst </p>
+                            <p className='text-project-info'> 2021, Physical Computing </p>
                         </div>
                         </Link>
                     </Grid>
                     <Grid  item className='frame-item' xs={12} sm={6}>
                         <Link to='/bright' className='link-item' style={{ textDecoration: 'none' , color: 'black' }}>
-                        <div>
-                            <img className="master-image" src={process.env.PUBLIC_URL + '/assets/Home/img1.png'} alt="master of bright" style={{marginTop: 10}}/>
-                            <p className='text-project-name'> BRIGHT </p>
-                            <p className='text-project-info'> 2021, Financial Service </p>
+                        <div className='hover-area'>
+                            <img className="master-image" src={process.env.PUBLIC_URL + '/assets/Home/img3.png'} alt="master of bright" style={{marginTop: 10}}/>
+                            <p className='text-project-name'> When Cat Dominates World </p>
+                            <p className='text-project-info'> 2020, Toy Service </p>
+                        </div>
+                        </Link>
+                    </Grid>
+                    <Grid  item className='frame-item' xs={12} sm={6}>
+                        <Link to='/bright' className='link-item' style={{ textDecoration: 'none' , color: 'black' }}>
+                        <div className='hover-area'>
+                            <img className="master-image" src={process.env.PUBLIC_URL + '/assets/Home/img4.png'} alt="master of bright" style={{marginTop: 10}}/>
+                            <p className='text-project-name'> Socks </p>
+                            <p className='text-project-info'> 2020, Toy Service </p>
                         </div>
                         </Link>
                     </Grid>
