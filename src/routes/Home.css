@@ -49,6 +49,20 @@
         font-size : 11px;
         color : #5e5e5e;
     }
+
+    .master-part div {
+        position: absolute;
+        margin: auto;
+        text-align: center;
+        /* background: #F3F3F3; */
+        font-size: 4vw;
+        color: black;
+        visibility: hidden;
+        opacity: 0;
+      
+        /* transition effect. not necessary */
+        transition: opacity 0.5s, visibility 0.5s;
+      }
 }
 
 @media only screen and (min-width: 600px) {
@@ -79,6 +93,20 @@
         font-size : 13px;
         color : #5e5e5e;
     }
+
+    .master-part div {
+        position: absolute;
+        margin: auto;
+        text-align: center;
+        /* background: #F3F3F3; */
+        font-size: 2vw;
+        color: black;
+        visibility: hidden;
+        opacity: 0;
+      
+        /* transition effect. not necessary */
+        transition: opacity 0.5s, visibility 0.5s;
+      }
 }
 
 html {
@@ -92,6 +120,7 @@ html {
 .nav-grid-container {
     padding-left : 6%;
     padding-right : 6%;
+    z-index: 999;
 
     font-family: Helvetica-Now;
 }
@@ -136,6 +165,10 @@ html {
 .nav-selection {
 }
 
+.bg-gray {
+    width : 100%;
+}
+
 .master-image {
     width : 100%;
 }
@@ -158,7 +191,9 @@ html {
 }
 
 .hover-area:hover .master-image{
-    opacity: 0.5;
+    opacity: 0;
+
+    transition: opacity .5s, visibility .5s;
 }
 
 a:link    {color:#000;}  /* unvisited link  */
@@ -174,21 +209,17 @@ a:active  {color:#000;}  /* selected link   */
     padding: auto;
 }
 
-.master-part div {
-    position: absolute;
-    margin: auto;
-    text-align: center;
-    /* background: #F3F3F3; */
-    font-size: 25px;
-    color: black;
-    visibility: hidden;
-    opacity: 0;
-  
-    /* transition effect. not necessary */
-    transition: opacity .5s, visibility .5s;
-  }
+
   
   .hover-area:hover .project-question {
     visibility: visible;
     opacity: 1;
+  }
+
+  .bg-gray {
+      position : absolute;
+  }
+
+  .master-image {
+      position : relative;
   }

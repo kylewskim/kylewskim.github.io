@@ -23,7 +23,8 @@ function Home() {
                         <Link to='/bright' className='link-item' style={{ textDecoration: 'none' , color: 'black' }}>
                         <div className='hover-area'>
                             <div className='master-part'>
-                                <img className="master-image" src={process.env.PUBLIC_URL + '/assets/Home/img1.png'} alt="master of bright" style={{marginTop: 10}}/>
+                                <img className="bg-gray" src={process.env.PUBLIC_URL + '/assets/Home/bg_gray.png'} alt="gray background" style={{marginTop: 10}}/>
+                                <img className="master-image" src={process.env.PUBLIC_URL + '/assets/Home/transparent_bright.png'} alt="master of bright" style={{marginTop: 10}}/>
                                 <div class="project-question">How can we help <br></br> shareholders <br></br> to fully exercise their rights?</div>
                             </div>
                             <p className='text-project-name'> BRIGHT </p>
@@ -34,7 +35,11 @@ function Home() {
                     <Grid  item className='frame-item' xs={12} sm={6}>
                         <Link to='/bright' className='link-item' style={{ textDecoration: 'none' , color: 'black' }}>
                         <div className='hover-area'>
-                            <img className="master-image" src={process.env.PUBLIC_URL + '/assets/Home/img2.png'} alt="master of bright" style={{marginTop: 10}}/>
+                            <div className='master-part'>
+                                <img className="bg-gray" src={process.env.PUBLIC_URL + '/assets/Home/bg_gray.png'} alt="gray background" style={{marginTop: 10}}/>
+                                <img className="master-image" src={process.env.PUBLIC_URL + '/assets/Home/transparent_lyst.png'} alt="master of bright" style={{marginTop: 10}}/>
+                                <div class="project-question">How can we make <br></br> shopping experience <br></br> be more effective?</div>
+                            </div>
                             <p className='text-project-name'> Lyst </p>
                             <p className='text-project-info'> 2021, Physical Computing </p>
                         </div>
@@ -43,7 +48,11 @@ function Home() {
                     <Grid  item className='frame-item' xs={12} sm={6}>
                         <Link to='/bright' className='link-item' style={{ textDecoration: 'none' , color: 'black' }}>
                         <div className='hover-area'>
-                            <img className="master-image" src={process.env.PUBLIC_URL + '/assets/Home/img3.png'} alt="master of bright" style={{marginTop: 10}}/>
+                        <div className='master-part'>
+                                <img className="bg-gray" src={process.env.PUBLIC_URL + '/assets/Home/bg_gray.png'} alt="gray background" style={{marginTop: 10}}/>
+                                <img className="master-image" src={process.env.PUBLIC_URL + '/assets/Home/transparent_cat.png'} alt="master of bright" style={{marginTop: 10}}/>
+                                <div class="project-question">What if <br></br> CAT <br></br> dominates the world?</div>
+                            </div>
                             <p className='text-project-name'> When Cat Dominates World </p>
                             <p className='text-project-info'> 2020, Toy Service </p>
                         </div>
@@ -52,7 +61,11 @@ function Home() {
                     <Grid  item className='frame-item' xs={12} sm={6}>
                         <Link to='/bright' className='link-item' style={{ textDecoration: 'none' , color: 'black' }}>
                         <div className='hover-area'>
-                            <img className="master-image" src={process.env.PUBLIC_URL + '/assets/Home/img4.png'} alt="master of bright" style={{marginTop: 10}}/>
+                        <div className='master-part'>
+                                <img className="bg-gray" src={process.env.PUBLIC_URL + '/assets/Home/bg_gray.png'} alt="gray background" style={{marginTop: 10}}/>
+                                <img className="master-image" src={process.env.PUBLIC_URL + '/assets/Home/transparent_socks.png'} alt="master of bright" style={{marginTop: 10}}/>
+                                <div class="project-question">How can we make <br></br> gift sharing <br></br> be exciting experience?</div>
+                            </div>
                             <p className='text-project-name'> Socks </p>
                             <p className='text-project-info'> 2020, Toy Service </p>
                         </div>
