@@ -22,7 +22,10 @@ function Home() {
                     <Grid  item className='frame-item' xs={12} sm={6}>
                         <Link to='/bright' className='link-item' style={{ textDecoration: 'none' , color: 'black' }}>
                         <div className='hover-area'>
-                            <img className="master-image" src={process.env.PUBLIC_URL + '/assets/Home/img1.png'} alt="master of bright" style={{marginTop: 10}}/>
+                            <div className='master-part'>
+                                <img className="master-image" src={process.env.PUBLIC_URL + '/assets/Home/img1.png'} alt="master of bright" style={{marginTop: 10}}/>
+                                <div class="project-question">How can we help <br></br> shareholders <br></br> to fully exercise their rights?</div>
+                            </div>
                             <p className='text-project-name'> BRIGHT </p>
                             <p className='text-project-info'> 2021, Financial Service </p>
                         </div>
@@ -65,7 +68,7 @@ function Home() {
                     <p className='text-info-wooseongkim'>
                     Wooseong Kim sincerely enjoys going through design process to solve the problem, especially helping people in needs with disorder or social structure by technical implementation. &nbsp;
                     <br></br>
-                    <Link to='/bright' className='text-info-wooseongkim' style={{ textDecoration: 'underline' , color: 'black' }}>
+                    <Link to='/bright' className='text-link-info-wooseongkim' style={{ textDecoration: 'underline' , color: 'black'}}>
                         To know more &#x2192;
                     </Link>
                     </p>

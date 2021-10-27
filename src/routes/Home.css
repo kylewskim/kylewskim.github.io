@@ -165,3 +165,30 @@ a:link    {color:#000;}  /* unvisited link  */
 a:visited {color:#000;}  /* visited link    */
 a:hover   {color:#000;}  /* mouse over link */
 a:active  {color:#000;}  /* selected link   */ 
+
+.master-part {
+    position : relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: auto;
+}
+
+.master-part div {
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    /* background: #F3F3F3; */
+    font-size: 25px;
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+  
+    /* transition effect. not necessary */
+    transition: opacity .5s, visibility .5s;
+  }
+  
+  .hover-area:hover .project-question {
+    visibility: visible;
+    opacity: 1;
+  }
